@@ -31,7 +31,11 @@ As for LRU vs. FIFO, sometimes FIFO has more misses, sometimes LRU. It depends o
 
 Question2:
 
-Since OPTFF is optimal, every sequence will be at least as good if not better than LRU and FIFO.
+Since OPTFF is optimal, every sequence will be at least as good if not better than LRU and FIFO, with most being better.
+Here is a simple one: 1 3 2 3 5 4 1 2 3
+OPTFF misses: 6
+LRU misses: 8
+FIFO misses: 8
 
 Question 3:
 
