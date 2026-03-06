@@ -11,7 +11,7 @@ Language: Python 3.14.x (Should run on any 3.x)
 1. Clone the Repository
 
 To run cache miss simulations:
-1. Create a /<name/>.in file that matches the input format.
+1. Create a .in file that matches the input format.
 2. Run it like this:
 
 ```bash
