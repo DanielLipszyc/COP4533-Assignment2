@@ -33,6 +33,12 @@ k = cache capacity (k >= 1)
 m = number of requests  
 ( r_1, .., r_m ) = sequence of integer IDs
 
+Output format will be:
+```bash
+FIFO  : <number_of_misses>
+LRU   : <number_of_misses>
+OPTFF : <number_of_misses>
+```
 
 
 ### Written Component
