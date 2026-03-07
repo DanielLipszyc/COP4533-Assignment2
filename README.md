@@ -22,6 +22,19 @@ For input file: test1.in:
 ```bash
 python3 src/cache.py tests/test1.in > tests/test1.out
 ```
+### Assumptions
+Input file format is:
+```bash
+k m
+r1 r2 r3 ... rm
+```
+where:   
+k = cache capacity (k >= 1)  
+m = number of requests  
+( r_1, .., r_m ) = sequence of integer IDs
+
+
+
 ### Written Component
 Question 1: Files in /tests directory; named empirical(1-3).in
 
