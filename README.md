@@ -11,9 +11,14 @@ Language: Python 3.14.x (Should run on any 3.x)
 1. Clone the Repository
 
 To run cache miss simulations:
-1. Create a .in file that matches the input format.
+1. Create a .in file that matches the input format, and output file will be automatically created.
 2. Run it like this:
 
+```bash
+python3 src/cache.py tests/YOUR_INPUT_FILE > tests/OUTPUT_FILE
+```
+
+For input file: test1.in:
 ```bash
 python3 src/cache.py tests/test1.in > tests/test1.out
 ```
